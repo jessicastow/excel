@@ -2,7 +2,7 @@
 #### Excel notes taken from DataCamp's Data Analysis in Excel course
 
 
-#### Part 1 
+#### EXPLORING DATA
 
 `EXACT()` function syntax
 - syntax:
@@ -48,3 +48,22 @@ Combining `SORT()` and `FILTER()`
 - Date: dates and times in an accepted date-time representation
 - Boolean: logical or TRUE/FALSE
 
+`TEXT()` function
+- syntax:
+`=TEXT(value, format)`
+- example:
+`=TEXT(A2, "000000000")
+- change the data type so it behaves like a string
+
+`VALUE()` function syntax
+- syntax:
+`=VALUE(text)`
+- example:
+`=VALUE(L2)`
+- can remove $'s
+
+`ROUND()` with `VALUE()`
+- syntax:
+`=ROUND(VALUE(text), decimal places)`
+- example:
+`=ROUND(VALUE(L2), 0)`
