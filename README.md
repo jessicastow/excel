@@ -54,6 +54,7 @@ Combining `SORT()` and `FILTER()`
 - example:
 `=TEXT(A2, "000000000")
 - change the data type so it behaves like a string
+- the number of 0s represents the minimum number of characters in the id field
 
 `VALUE()` function syntax
 - syntax:
@@ -67,3 +68,7 @@ Combining `SORT()` and `FILTER()`
 `=ROUND(VALUE(text), decimal places)`
 - example:
 `=ROUND(VALUE(L2), 0)`
+
+#### PREPARING DATA
+
+#### ANALYSING DATA
